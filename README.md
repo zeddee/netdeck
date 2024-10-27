@@ -36,9 +36,7 @@ root permissions, which
 are required to access NICs etc.
 
 See
-[`kubectl debug: profile "sysadmin" does not work as expected when uid != 0 is specified
-
-# 1650`](<https://github.com/kubernetes/kubectl/issues/1650>)
+[`kubectl debug: profile "sysadmin" does not work as expected when uid != 0 is specified \#1650`](https://github.com/kubernetes/kubectl/issues/1650)
 
 As a workaround, run `kubectl debug`
 with a `--custom=./privileged-profile.yml` parameter,
