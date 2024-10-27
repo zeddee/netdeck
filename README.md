@@ -8,5 +8,9 @@ Meant to be used with
 ## Usage
 
 ```bash
-kubectl debug <pod> --image <this_image> --target <container> --profile netadmin -- ash
+kubectl debug <pod> \
+  -ti \
+  --image ghcr.io/zeddee/netdeck \
+  --target <container> \
+  --profile netadmin -- ash
 ```
